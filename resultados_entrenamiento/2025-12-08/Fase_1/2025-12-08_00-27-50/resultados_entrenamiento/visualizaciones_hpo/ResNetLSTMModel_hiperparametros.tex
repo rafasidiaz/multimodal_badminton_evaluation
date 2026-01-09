@@ -1,0 +1,16 @@
+\begin{table}[htbp]
+\caption{Hiperparámetros óptimos encontrados por HPO para el modelo ResNetLSTMModel.}
+\label{tab:resnetlstmmodel_hiperparametros}
+\begin{tabular}{lccccccc}
+\hline\hline
+Subconjunto de Sensores & Métrica Óptima & Tamaño de Lote & Tasa de Dropout & Caract. Ocultas & Tasa de Aprend. & Unidades LSTM & Núm. Bloques \\
+\hline
+allStreams & 0.9536 & 128 & 0.3682 & 128 & 0.0153 & 128 & 3 \\
+onlyGforce & 0.5763 & 64 & 0.4165 & 128 & 0.0041 & 64 & 2 \\
+onlyCognionics & 0.5577 & 64 & 0.5034 & 128 & 0.0012 & 64 & 3 \\
+onlyEye & 0.8775 & 128 & 0.6465 & 64 & 0.0021 & 64 & 3 \\
+onlyInsole & 0.8518 & 128 & 0.3463 & 128 & 0.0349 & 128 & 1 \\
+onlyBody & 0.9741 & 64 & 0.4165 & 128 & 0.0041 & 64 & 2 \\
+\hline\hline
+\end{tabular}
+\end{table}

@@ -1,0 +1,42 @@
+[
+    {
+        "metric": "train_acc",
+        "mean": 100.0,
+        "std": 0.0
+    },
+    {
+        "metric": "test_acc",
+        "mean": 90.27386592734662,
+        "std": 14.956191868961701
+    },
+    {
+        "metric": "train_bal_acc",
+        "mean": 100.0,
+        "std": 0.0
+    },
+    {
+        "metric": "test_bal_acc",
+        "mean": 89.24297255249785,
+        "std": 14.946802538918341
+    },
+    {
+        "metric": "train_f1_acc",
+        "mean": 100.0,
+        "std": 0.0
+    },
+    {
+        "metric": "test_f1_acc",
+        "mean": 89.6212157475921,
+        "std": 16.302742434513558
+    },
+    {
+        "metric": "train_loss",
+        "mean": 0.001082875737043126,
+        "std": 0.00022373936156485635
+    },
+    {
+        "metric": "test_loss",
+        "mean": 0.6018128382217179,
+        "std": 1.3492795918421012
+    }
+]

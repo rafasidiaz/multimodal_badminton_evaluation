@@ -1,0 +1,16 @@
+\begin{table}[htbp]
+\caption{Hiperparámetros óptimos encontrados por HPO para el modelo LSTM.}
+\label{tab:lstm_hiperparametros}
+\begin{tabular}{lcccc}
+\hline\hline
+Subconjunto de Sensores & Métrica Óptima & Tamaño de Lote & Caract. Ocultas & Tasa de Aprend. \\
+\hline
+allStreams & 0.9890 & 64 & 64 & 0.0018 \\
+onlyGforce & 0.6282 & 64 & 64 & 0.0018 \\
+onlyCognionics & 0.7064 & 128 & 128 & 0.0153 \\
+onlyEye & 0.8863 & 64 & 64 & 0.0036 \\
+onlyInsole & 0.8277 & 128 & 128 & 0.0153 \\
+onlyBody & 0.9845 & 128 & 128 & 0.0153 \\
+\hline\hline
+\end{tabular}
+\end{table}

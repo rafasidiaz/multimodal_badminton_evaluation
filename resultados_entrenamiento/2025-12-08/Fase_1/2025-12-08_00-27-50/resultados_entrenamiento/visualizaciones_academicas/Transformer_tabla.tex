@@ -1,0 +1,16 @@
+\begin{table}[htbp]
+\caption{Comparación de rendimiento del modelo Transformer en diferentes subconjuntos de sensores.}
+\label{tab:transformer_comparacion}
+\begin{tabular}{lcccccccc}
+\hline\hline
+Subconjunto de Sensores & Exactitud Test & Exactitud Bal. Test & F1 Test & Exactitud Entren. & Exactitud Bal. Entren. & F1 Entren. & Pérdida Test & Pérdida Entren. \\
+\hline
+allStreams & 87.50 ± 16.75 & 85.05 ± 18.10 & 86.90 ± 17.07 & 99.99 ± 0.02 & 99.99 ± 0.02 & 99.99 ± 0.02 & 0.8653 ± 1.4443 & 0.0006 ± 0.0007 \\
+onlyGforce & 46.73 ± 7.67 & 32.31 ± 3.90 & 31.67 ± 2.86 & 51.17 ± 6.02 & 36.59 ± 9.01 & 36.89 ± 10.15 & 1.1358 ± 0.4102 & 0.9935 ± 0.1147 \\
+onlyCognionics & 52.90 ± 9.09 & 46.33 ± 9.28 & 46.20 ± 11.62 & 71.51 ± 3.52 & 67.14 ± 4.18 & 70.72 ± 3.78 & 1.9220 ± 1.3062 & 0.6180 ± 0.0616 \\
+onlyEye & 67.89 ± 18.10 & 64.33 ± 19.02 & 67.22 ± 18.75 & 84.47 ± 2.43 & 82.82 ± 2.62 & 84.44 ± 2.45 & 0.8455 ± 0.5653 & 0.3697 ± 0.0482 \\
+onlyInsole & 76.81 ± 14.13 & 71.59 ± 16.16 & 74.70 ± 14.60 & 97.95 ± 0.69 & 97.81 ± 0.81 & 97.95 ± 0.69 & 1.1141 ± 0.9505 & 0.0595 ± 0.0201 \\
+onlyBody & 87.32 ± 16.16 & 85.21 ± 17.85 & 86.59 ± 16.76 & 99.95 ± 0.17 & 99.95 ± 0.17 & 99.95 ± 0.17 & 0.8110 ± 1.1736 & 0.0018 ± 0.0049 \\
+\hline\hline
+\end{tabular}
+\end{table}

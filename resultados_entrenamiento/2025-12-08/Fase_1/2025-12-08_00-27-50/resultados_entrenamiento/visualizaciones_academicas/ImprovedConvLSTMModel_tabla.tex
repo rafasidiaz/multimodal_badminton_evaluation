@@ -1,0 +1,16 @@
+\begin{table}[htbp]
+\caption{Comparación de rendimiento del modelo ImprovedConvLSTMModel en diferentes subconjuntos de sensores.}
+\label{tab:improvedconvlstmmodel_comparacion}
+\begin{tabular}{lcccccccc}
+\hline\hline
+Subconjunto de Sensores & Exactitud Test & Exactitud Bal. Test & F1 Test & Exactitud Entren. & Exactitud Bal. Entren. & F1 Entren. & Pérdida Test & Pérdida Entren. \\
+\hline
+allStreams & 82.62 ± 18.39 & 81.37 ± 17.98 & 81.42 ± 20.87 & 99.43 ± 0.13 & 99.38 ± 0.15 & 99.43 ± 0.13 & 2.4219 ± 5.9940 & 0.0214 ± 0.0085 \\
+onlyGforce & 49.31 ± 0.63 & 33.33 ± 0.00 & 32.57 ± 0.69 & 49.30 ± 0.06 & 33.33 ± 0.01 & 32.57 ± 0.07 & 1.0274 ± 0.0062 & 1.0453 ± 0.0012 \\
+onlyCognionics & 45.84 ± 12.38 & 40.31 ± 12.63 & 38.95 ± 11.88 & 59.51 ± 1.49 & 56.05 ± 2.22 & 58.82 ± 1.77 & 1.6357 ± 1.0636 & 0.8002 ± 0.0237 \\
+onlyEye & 76.62 ± 19.51 & 74.11 ± 19.71 & 76.04 ± 19.86 & 84.99 ± 2.58 & 83.32 ± 2.65 & 84.99 ± 2.56 & 0.6643 ± 0.6071 & 0.3987 ± 0.0600 \\
+onlyInsole & 73.88 ± 15.43 & 69.45 ± 18.18 & 70.19 ± 17.60 & 98.88 ± 0.36 & 98.85 ± 0.39 & 98.88 ± 0.36 & 1.8827 ± 1.6790 & 0.0365 ± 0.0135 \\
+onlyBody & 83.03 ± 17.94 & 81.66 ± 19.38 & 81.68 ± 20.09 & 99.58 ± 0.18 & 99.55 ± 0.19 & 99.58 ± 0.18 & 1.7309 ± 3.5473 & 0.0145 ± 0.0064 \\
+\hline\hline
+\end{tabular}
+\end{table}

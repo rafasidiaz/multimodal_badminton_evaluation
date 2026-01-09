@@ -1,0 +1,16 @@
+\begin{table}[htbp]
+\caption{Comparación de rendimiento del modelo LSTM en diferentes subconjuntos de sensores.}
+\label{tab:lstm_comparacion}
+\begin{tabular}{lcccccccc}
+\hline\hline
+Subconjunto de Sensores & Exactitud Test & Exactitud Bal. Test & F1 Test & Exactitud Entren. & Exactitud Bal. Entren. & F1 Entren. & Pérdida Test & Pérdida Entren. \\
+\hline
+allStreams & 90.85 ± 14.48 & 88.78 ± 16.70 & 90.40 ± 15.17 & 100.00 ± 0.02 & 100.00 ± 0.02 & 100.00 ± 0.02 & 0.4645 ± 1.0184 & 0.0003 ± 0.0005 \\
+onlyGforce & 54.13 ± 22.36 & 49.59 ± 21.05 & 51.86 ± 23.13 & 86.80 ± 3.24 & 84.61 ± 3.94 & 86.65 ± 3.32 & 2.4161 ± 2.5970 & 0.3173 ± 0.0726 \\
+onlyCognionics & 51.06 ± 12.45 & 40.77 ± 13.16 & 43.87 ± 14.07 & 71.44 ± 4.12 & 67.35 ± 4.77 & 70.83 ± 4.35 & 2.1276 ± 2.1345 & 0.6054 ± 0.0681 \\
+onlyEye & 75.95 ± 20.32 & 74.04 ± 20.81 & 75.36 ± 20.68 & 92.00 ± 2.99 & 91.09 ± 3.34 & 91.99 ± 3.00 & 0.9877 ± 1.4008 & 0.2072 ± 0.0722 \\
+onlyInsole & 81.44 ± 14.10 & 77.50 ± 16.09 & 79.70 ± 15.35 & 97.41 ± 1.37 & 97.00 ± 1.62 & 97.41 ± 1.38 & 0.7572 ± 0.7920 & 0.0772 ± 0.0382 \\
+onlyBody & 89.69 ± 16.23 & 88.24 ± 18.11 & 89.16 ± 17.11 & 100.00 ± 0.00 & 100.00 ± 0.01 & 100.00 ± 0.00 & 0.5974 ± 1.1677 & 0.0011 ± 0.0003 \\
+\hline\hline
+\end{tabular}
+\end{table}

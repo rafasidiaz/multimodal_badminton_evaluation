@@ -1,0 +1,17 @@
+{
+    "best_value": 0.8311910003295385,
+    "best_params": {
+        "batch_size": 64,
+        "hidden_features": 64,
+        "learning_rate": 0.0017541893487450805,
+        "lstm_hidden": 64,
+        "dropout_rate": 0.6637281608315128,
+        "reduction_ratio": 1,
+        "use_attention": true,
+        "num_blocks": 2
+    },
+    "best_trial": 3,
+    "n_trials": 10,
+    "completed_trials": 7,
+    "pruned_trials": 3
+}

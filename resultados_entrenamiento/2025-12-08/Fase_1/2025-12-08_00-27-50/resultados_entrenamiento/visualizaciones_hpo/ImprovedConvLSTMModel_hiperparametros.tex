@@ -1,0 +1,16 @@
+\begin{table}[htbp]
+\caption{Hiperparámetros óptimos encontrados por HPO para el modelo ImprovedConvLSTMModel.}
+\label{tab:improvedconvlstmmodel_hiperparametros}
+\begin{tabular}{lccccccc}
+\hline\hline
+Subconjunto de Sensores & Métrica Óptima & Tamaño de Lote & Tasa de Dropout & Caract. Ocultas & Tasa de Aprend. & Unidades LSTM & Ratio de Red. \\
+\hline
+allStreams & 0.9332 & 64 & 0.6209 & 64 & 0.0036 & 64 & 1 \\
+onlyGforce & 0.4953 & 64 & 0.6687 & 64 & 0.0757 & 64 & 1 \\
+onlyCognionics & 0.5635 & 64 & 0.5034 & 128 & 0.0012 & 64 & 2 \\
+onlyEye & 0.8312 & 64 & 0.6637 & 64 & 0.0018 & 64 & 1 \\
+onlyInsole & 0.7889 & 128 & 0.3682 & 128 & 0.0153 & 128 & 1 \\
+onlyBody & 0.9614 & 128 & 0.3682 & 128 & 0.0153 & 128 & 1 \\
+\hline\hline
+\end{tabular}
+\end{table}

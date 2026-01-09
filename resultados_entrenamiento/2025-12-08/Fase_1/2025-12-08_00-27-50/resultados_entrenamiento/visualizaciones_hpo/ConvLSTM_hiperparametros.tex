@@ -1,0 +1,16 @@
+\begin{table}[htbp]
+\caption{Hiperparámetros óptimos encontrados por HPO para el modelo ConvLSTM.}
+\label{tab:convlstm_hiperparametros}
+\begin{tabular}{lcccc}
+\hline\hline
+Subconjunto de Sensores & Métrica Óptima & Tamaño de Lote & Caract. Ocultas & Tasa de Aprend. \\
+\hline
+allStreams & 0.9481 & 128 & 128 & 0.0153 \\
+onlyGforce & 0.5309 & 64 & 128 & 0.0012 \\
+onlyCognionics & 0.6289 & 128 & 128 & 0.0153 \\
+onlyEye & 0.8449 & 64 & 128 & 0.0041 \\
+onlyInsole & 0.7709 & 128 & 128 & 0.0153 \\
+onlyBody & 0.9796 & 64 & 128 & 0.0012 \\
+\hline\hline
+\end{tabular}
+\end{table}
