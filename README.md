@@ -309,8 +309,8 @@ Si utilizas este código, por favor cita:
 
 ```bibtex
 @mastersthesis{asian2025badminton,
-    title={Clasificación de Técnicas de Bádminton mediante Redes Neuronales},
-    author={Asián, Rafael},
+    title={Reconocimiento de patrones aplicado al deporte (Caso de Uso: Bádminton),
+    author={Asián Díaz, Rafael},
     year={2025},
     school={Universidad},
     type={Master's Thesis}
