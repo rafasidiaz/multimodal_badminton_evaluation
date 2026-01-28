@@ -41,7 +41,7 @@ tqdm >= 4.62.0
 
 ### 1. Clonar el repositorio
 ```bash
-git clone <URL_REPOSITORIO>
+git clone https://github.com/rafasidiaz/multimodal_badminton_evaluation
 cd tfm-badminton-classification
 ```
 
